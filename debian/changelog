@@ -1,0 +1,79 @@
+haskell-old-locale (1.0.0.7-deepin1) unstable; urgency=medium
+
+  * Rebuild
+
+ -- Deepin Packages Builder <packages@deepin.org>  Sat, 26 Nov 2022 21:00:57 +0800
+
+haskell-old-locale (1.0.0.7-9) unstable; urgency=medium
+
+  * Sourceful upload for GHC 8.8
+
+ -- Clint Adams <clint@debian.org>  Sat, 30 May 2020 22:03:31 -0400
+
+haskell-old-locale (1.0.0.7-8) unstable; urgency=medium
+
+  [ Clint Adams ]
+  * Set Rules-Requires-Root to no.
+
+  [ Ilias Tsitsimpis ]
+  * Bump debhelper compat level to 10
+
+ -- Ilias Tsitsimpis <iliastsi@debian.org>  Sun, 30 Sep 2018 21:16:33 +0300
+
+haskell-old-locale (1.0.0.7-7) unstable; urgency=medium
+
+  * Patch for newer base.
+
+ -- Clint Adams <clint@debian.org>  Thu, 12 Apr 2018 09:43:29 -0400
+
+haskell-old-locale (1.0.0.7-6) unstable; urgency=medium
+
+  [ Ilias Tsitsimpis ]
+  * Change Priority to optional. Since Debian Policy version 4.0.1,
+    priority extra has been deprecated.
+  * Use the HTTPS form of the copyright-format URL
+  * Modify d/watch and Source field in d/copyright to use HTTPS
+  * Declare compliance with Debian policy 4.1.1
+  * Use salsa.debian.org URLs in Vcs-{Browser,Git} fields
+
+  [ Clint Adams ]
+  * Bump to Standards-Version 4.1.4.
+
+ -- Clint Adams <clint@debian.org>  Mon, 09 Apr 2018 20:04:59 -0400
+
+haskell-old-locale (1.0.0.7-5) unstable; urgency=medium
+
+  * Upload to unstable as part of GHC 8 transition.
+
+ -- Clint Adams <clint@debian.org>  Thu, 27 Oct 2016 18:35:15 -0400
+
+haskell-old-locale (1.0.0.7-4) experimental; urgency=medium
+
+  * Temporarily build-depend on ghc 8.
+
+ -- Clint Adams <clint@debian.org>  Wed, 12 Oct 2016 23:12:23 -0400
+
+haskell-old-locale (1.0.0.7-3) unstable; urgency=medium
+
+  [ Dmitry Bogatov ]
+  * Use secure (https) uri in Vcs-Git field in 'debian/control'
+  * Bump standards version to 3.9.8 (no changes needed)
+
+  [ Clint Adams ]
+  * Patch to build with GHC 8.
+
+ -- Clint Adams <clint@debian.org>  Wed, 29 Jun 2016 20:31:34 +0200
+
+haskell-old-locale (1.0.0.7-2) unstable; urgency=medium
+
+  * Switch Vcs-Git/Vcs-Browser headers to new location.
+
+ -- Clint Adams <clint@debian.org>  Thu, 03 Dec 2015 14:54:51 -0500
+
+haskell-old-locale (1.0.0.7-1) experimental; urgency=low
+
+  * Initial release
+  * Depend on haskell-devscripts >= 0.10 to ensure that this package
+    builds against GHC in experimental
+
+ -- Joachim Breitner <nomeata@debian.org>  Thu, 20 Aug 2015 10:28:20 +0200
